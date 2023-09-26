@@ -116,9 +116,6 @@ h1 + img {
   height: 81px;
 }
 
-img {
-  /* float: left; */
-}
 img + p + p {
   clear: left;
 }
@@ -503,25 +500,6 @@ footer a {
   #button1 {
     top: 40px;
   }
-  iframe {
-    width: 49%;
-    display: inline-block;
-    height: 200px;
-    vertical-align: middle;
-  }
-  section {
-    width: 49%;
-    display: inline-block;
-    height: 200px;
-    border-radius: 10px;
-    vertical-align: middle;
-  }
-  h2 p {
-    font-size: 14px;
-  }
-  input {
-    width: 50%;
-  }
 }
 @media screen and (min-width: 744px) {
   header {
@@ -545,5 +523,30 @@ footer a {
   }
   img {
     float: left;
+  }
+}
+@media screen and (min-width: 1000px) {
+  iframe {
+    width: 49%;
+    display: inline-block;
+    height: 200px;
+    vertical-align: middle;
+  }
+  section {
+    width: 49%;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: middle;
+  }
+  h2 p {
+    font-size: 14px;
+  }
+  input {
+    width: 50%;
+  }
+  .g1 {
+    display: inline-block;
+    width: 32%;
   }
 }
