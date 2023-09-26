@@ -481,14 +481,6 @@ footer a {
 .a1 {
   position: relative;
 }
-.fa-tag {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 3em;
-  color: #cdcdcd;
-  transition: 0, -100%;
-}
 
 @media screen and (min-width: 480px) {
   #button3 {
@@ -526,6 +518,9 @@ footer a {
   }
 }
 @media screen and (min-width: 1000px) {
+  table + p {
+    margin-bottom: 5em;
+  }
   iframe {
     width: 49%;
     display: inline-block;
@@ -548,5 +543,20 @@ footer a {
   .g1 {
     display: inline-block;
     width: 32%;
+    position: relative;
   }
+}
+.g1 {
+  position: relative;
+}
+.ij1,
+.ij2,
+.ij3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3em;
+  color: #cdcdcd;
+  top: 5px;
+  right: 5px;
 }
